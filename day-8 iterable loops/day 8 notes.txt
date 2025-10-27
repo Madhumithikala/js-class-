@@ -1,0 +1,67 @@
+5 iterable loop:
+------------------
+ 
+ for loop:
+ ------------
+ for(Initialization; conditional st; incr/decr){
+ #st 1
+ #st 2
+ #st 3
+ }
+ 
+ executing block of st-n times based on condition
+ 
+ ex:
+ 
+ for(let i=1;i<=10;i++){
+ 
+ console.log(i)
+ }
+ 
+ while loop:
+ -----------------
+ 
+ let i=1;
+ while(i<=10){
+ console.log(i);
+ i++;
+ }
+ 
+ 
+ do while loop:
+ ----------------
+ 
+ let i=1;
+ do{
+ 
+ console.log(i)
+ 
+ i++;
+ 
+ }
+ while(i<=10)
+ 
+ -------------------------------------------------
+ wap to print no of male employees uaing
+//1.for loop
+//2.while loop
+//3.do while loop
+
+
+for loop:
+
+let Male-emps=0;
+for(let emp of employees){
+if(emp.gender==="Male"){
+male-emps ++;
+}
+}
+
+console.log(male-emps)
+
+
+
+
+ 
+ 
+ 

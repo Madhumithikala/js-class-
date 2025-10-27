@@ -1,0 +1,95 @@
+data types 
+-------------------
+primitive data types -7
+----------------------
+number
+string
+boolean
+undefined
+null
+bigint
+Symbol
+
+bigint in javascript representation--var n=122345678910n;
+
+non-primitive data types -1
+-----------------------------
+object{}
+--------------------------
+js-array= group of elements as one entity.
+elements are store in heap memory based on index numbers start with 0.
+allowed heterogeneous&duplicates. [21,21.5,'gnana',true].
+Negative indexing is not possible.
+Array is a iterable object.
+order maintain(insertion order).
+
+create
+-------------------
+var eids=[101,102,103]
+var a=[10,20,101,10]
+var b=[21,21.5,'gnana',true]
+let enames=['rahul','sonia','priyanka','modi']
+--------------------
+Read
+-------------------------
+console.log(eids);
+console.log(a);
+console.log(b);
+
+how to read array elements?
+ using indexing.
+ clg(ename[0])// rahul
+ clg(ename[1])// sonia
+ clg(ename[2])// priyanka
+ clg(ename[3])// modi
+ clg(ename[4])// undefined  index is not there then its is undefined.
+ clg(ename[5])// undefined
+ ----------------------------
+ update
+ ---------------------
+ enames[0]='rahul gandhi'
+ console.log(enames);
+ 
+ 
+ delete
+ ------------------------
+delete enames[0]
+console.log(enames)
+
+javascript-object
+-----------------------------                                    [] js array object
+                                                                  {} js object
+how to represent maped valus in js?
+using object {}
+ group of key:value pairs as one entity.
+ duplicate keys are not allowed.
+ indexing concept is not allowed.
+ 
+ create
+ ---------------------
+ let emp={"eid':101,
+          "ename":'rahul',
+		  "esal":56000}
+		  
+read----------------
+console.log(emp)
+
+ how to read js objects-values? using object properties.
+ console.log(object.property)
+ console.log(emp.eid)
+ console.log(emp.ename)
+ console.log(emp.esal)
+ 
+ update
+ -------------------
+ emp.esal=430000;
+ clg(emp);
+ 
+ if property is not there then it going to be add.
+ emp.gender="male";
+ clg(emp);
+ 
+ 
+ 
+ 
+ 
