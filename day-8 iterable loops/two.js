@@ -62,7 +62,7 @@ console.log(employees.length)
 //3.do while loop
 
 
-let male_emps=0;
+/*let male_emps=0;
 for(let emp of employees){
 
     if(emp.gender==="Male"){
@@ -71,7 +71,18 @@ for(let emp of employees){
     }
 }
 
-console.log(male_emps)
+console.log(male_emps)*/
+
+
+let i=0;
+while(i<=employees.length-1){
+  console.log(employees[i].ename)
+  i++;
+
+}
+
+
+
 
 
 

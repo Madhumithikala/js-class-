@@ -12,5 +12,3 @@ for(let i=0; i<=numbers.length-1; i++){
 }
 
 console.log("No of evens",no_evens)
-
-

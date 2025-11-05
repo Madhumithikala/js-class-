@@ -1,6 +1,8 @@
 
 function login(){
-    console.log('Login success')
+    console.log('Login ')
+    console.log('Successfull')
+    
 }
 login()
 login()
