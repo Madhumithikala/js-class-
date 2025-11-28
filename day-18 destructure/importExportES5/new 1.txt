@@ -1,0 +1,25 @@
+13/11/2025
+
+-----------------
+ES5:
+
+product.js
+
+let pname='Marker pen'
+
+class product{
+    constructor(){
+    console.log("product class constructors")
+   }
+}
+
+//default import
+module.exports=pname;
+//named exports
+module.exports={pname,product}
+-----------------
+cart.js
+----------------------
+let prod_name = require("./product");
+console.log(prod_name);
+

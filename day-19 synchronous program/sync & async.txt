@@ -1,0 +1,34 @@
+14/11/25
+----------------
+synchronous:
+-----------------
+Executing one request at a time.
+
+Ex:
+ console.log("R1");
+ console.log("R2");
+ console.log("R3");
+ console.log("R4");
+
+Asynchronous:
+---------------------
+Executing multiple requests at a time.
+->setTimeout is a inbuilt function in javascript.
+------------------------
+Example:1
+------------------------
+setTimeout(() => { console.log("R1"); }, 8000);
+setTimeout(() => { console.log("R2"); }, 9000);
+setTimeout(() => { console.log("R3"); }, 5000);
+setTimeout(() => { console.log("R4"); }, 6000);
+----------------
+Example-2:
+--------------
+setTimeout(() => { console.log("R1"); }, 5000);
+setTimeout(() => { console.log("R2"); }, 3000);
+setTimeout(() => { console.log("R3"); }, 2000);
+setTimeout(() => { console.log("R4"); }, 4000);
+
+callback:
+-----------
+->passing function as arguments

@@ -1,0 +1,50 @@
+
+class-18:
+Import/Export:
+-------------------------
+They are two types 
+1. default
+2. named
+
+1)Default:
+if you want export/import single value;
+
+Example:
+ES5:
+central.js
+------------
+let tax=18;
+function login(){
+console.log('LS')
+}
+module.exports=tax;
+----------
+ka.js
+
+let tax=require('./central')
+console.log(tax)
+
+-------------------------------------------------
+2)Named:
+if you want export/import multiple values;
+
+Example:
+ES6:
+package.json
+
+Central.js:
+----------------------
+let tax=18;
+let login =() => {
+
+}
+//export default tax;
+
+export{tax,login};
+
+ka.js:
+----------------------
+
+
+
+

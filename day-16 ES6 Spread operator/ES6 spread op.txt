@@ -1,0 +1,52 @@
+10/11/2025
+------------------
+ECMA:
+-------
+->providing stadard to javascript in the form of ECMAscript.
+->current version is es14.
+->major changes opening in es6.
+
+Es6 features:
+--------------
+1.let,const
+2.class
+3.${}
+4.()=>{}
+5.[]
+
+ ->your url contains domain name, path parameters,query parameters
+for constructing url we are using string literals.
+
+6/... -> operator acting as spread operator and acting as rest operator.
+
+    []  {}
+	->  extract & copy
+--------------------------
+	ex:
+	let uids=[101,102,103,104];
+	//create new array eids based on existing 
+	let eids=[...uids]
+---------------------------
+	1.create new array/object
+	2.merge array/object
+	3.extends array/object
+	
+note:array are  allowed  duplicates.
+note: abject are not allowed duplicates.
+	
+new key words are coming=
+7.import/export
+8.destructing
+9.asynchronous programing.
+a)call back
+b)promise
+c)async & await
+10.set
+11.clouser
+
+
+
+
+
+
+

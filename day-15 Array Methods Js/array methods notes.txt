@@ -1,0 +1,46 @@
+[]-> Js-Array:
+---------------------
+
+->group of elements as one entity.
+
+->duplicates are allowed
+
+->allowed heterogneous elements
+
+->sorting based indexing
+
+->insertion order maintained
+
+->iterable object ->
+                   -for
+				   -while
+				   -do while
+				   -
+
+{}-> Js-Object:
+---------------------
+
+->group of key value pairs as one entity
+
+->duplicates keys are not allowed
+
+->heterogneous elements are allowed
+
+->indexing not applicable
+
+->no order guarente 
+
+
+---------------------------
+
+let eids=[101,102,103,104]
+
+eids.push(105)
+eids.pop
+eids.unshift(100)
+eids.shift()
+
+shift()-> remove first element from array
+unshift()-> add element begins of array
+push()-> append elements end of array
+pop()-> remove last element from array

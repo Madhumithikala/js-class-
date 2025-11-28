@@ -1,0 +1,7 @@
+spread operator:
+------------------
+
+extract - array elements
+		&
+copy into new array
+
